@@ -1,7 +1,7 @@
 # Pokedex
-Projeto realizado junto a [DIO](https://www.dio.me/sign-up?ref=TQGOYNU5LQ), sob orientação do professor Renan Johannsen. A proposta do projeto era construir uma Pokedex, 
+Projeto realizado junto a [DIO](https://www.dio.me/sign-up?ref=TQGOYNU5LQ), sob orientação do professor Renan Johannsen. A proposta do projeto é construir uma Pokedex trazendo informações da API oficial do Pokemon, integrando e tratando as informações.
 
-## Lista de Pokemons
+## Lista de Pokemons Apresentados na Pokedex
 - 001 - Bulbasaur: Planta | Poison
 - 002 - Ivysaur: Planta | Poison
 - 003 - Venusaur: Planta | Poison
@@ -14,10 +14,12 @@ Projeto realizado junto a [DIO](https://www.dio.me/sign-up?ref=TQGOYNU5LQ), sob 
 - 010 - Caterpie: Bug
 
 ## Links Úteis
+
 - Pokedex: http://pokemon.com/br/pokedex
 - Modelo Pokedex: https://dribbble.com/shots/6540871-Pokedex-App/attachments/6540871-Pokedex-App?mode=media
 - PokeAPI Documents: https://pokeapi.co/docs/v2#pokemon
 - PokeAPI Image: https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg
 - PokeAPI Details: https://pokeapi.co/api/v2/pokemon/1
+- Response json() method: https://developer.mozilla.org/en-US/docs/Web/API/Response/json
 
 
