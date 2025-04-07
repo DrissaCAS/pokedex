@@ -1,17 +1,16 @@
 # Pokedex
 Projeto realizado junto a [DIO](https://www.dio.me/sign-up?ref=TQGOYNU5LQ), sob orientação do professor Renan Johannsen. A proposta do projeto é construir uma Pokedex trazendo informações da API oficial do Pokemon, integrando e tratando as informações.
 
-## Lista de Pokemons Apresentados na Pokedex
-- 001 - Bulbasaur: Planta | Poison
-- 002 - Ivysaur: Planta | Poison
-- 003 - Venusaur: Planta | Poison
-- 004 - Charmander: Fogo
-- 005 - Charmeleon: Fogo
-- 006 - Charizard: Fogo | Flying
-- 007 - Squirtle: Água
-- 008 - Wartortle: Água
-- 009 - Blastoise: Água
-- 010 - Caterpie: Bug
+## Aprendizados
+- Integrar código a API externa e manipular os dados através do próprio código selecionando e personalizando as informações conforme desejamos utilizar.
+- Funcionamento das requisições e como manipular as informações obtidas nas requisições.
+- Trabalhando paginação para carregar mais informações na tela.
+
+## Pokemons Apresentados na Pokedex
+- 1° geração - 151 Pokemons
+
+## Melhorias
+- 
 
 ## Links Úteis
 
