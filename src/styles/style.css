@@ -6,6 +6,11 @@
 }
 
 body {
+    background-image: url(../img/pokeball-pokémon.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px -350px;
+    background-attachment: fixed;
     background-color: #f7f8fc;
 }
 
@@ -26,5 +31,16 @@ body {
         height: auto;
         margin: 1rem auto;
         border-radius: 1rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: url(../img/pokeball-pokémon.jpeg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+        background-attachment: fixed;
+        background-color: #44413a;
     }
 }
