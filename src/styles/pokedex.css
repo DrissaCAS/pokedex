@@ -23,7 +23,7 @@
 
 .pokemon .name {
     text-transform: capitalize;
-    color: #ffffff;
+    color: #000000;
     margin-bottom: .15rem;
 }
 
@@ -41,7 +41,8 @@
 }
 
 .pokemon .detail .types .type {
-    color: #ffffff;
+    color: #000000;
+    opacity: 0.6;
     padding: .2rem .8rem;
     margin: .25rem 0;
     font-size: .625rem;

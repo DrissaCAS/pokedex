@@ -1,4 +1,5 @@
-# Pokedex
+# ![drawing](./src/img/favicon-16x16.png) Pokedex
+
 Projeto realizado junto a [DIO](https://www.dio.me/sign-up?ref=TQGOYNU5LQ), sob orientação do professor Renan Johannsen. A proposta do projeto é construir uma Pokedex trazendo informações da API oficial do Pokémon, integrando e tratando as informações.
 
 Durante o curso o professor Renan mostrou como realizar a integração e a construção da 1° parte da Pokedex, que foram os Pokémons com algumas informações básicas como o número, nome, tipo e a foto. Como desafio ele deixou a criação da segunda tela com detalhes mais aprofundados dos Pokémons.
@@ -18,6 +19,7 @@ Durante o curso o professor Renan mostrou como realizar a integração e a const
 
 ##  🛠️ Melhorias
 - Inclusão de background
+- Personalização do título da página com a fonte Pokemon Solid
 - 
 
 ## 🚀 Resultados

@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+                
 * {    
     font-family: 'Robote', sans-serif;
     box-sizing: border-box;
 }
 
 body {
-    background-image: url(../img/pokeball-pokémon.jpeg);
-    background-size: 100%;
+    background-image: url(../img/pokemon-go.jpg);
+    background-size: 100% auto;
     background-repeat: no-repeat;
-    background-position: 0px -350px;
     background-attachment: fixed;
     background-color: #f7f8fc;
 }
@@ -18,7 +18,17 @@ body {
     height: 100vh;
     width: 100vw;
     padding: 1em;
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
+}
+
+.content h1#title-page {
+    -webkit-text-stroke-width: 0.005em;
+    -webkit-text-stroke-color: #8c3f3b;
+    font-family: 'Pokemon Solid', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    padding: 0px 0px 20px 15px;
 }
 
 .content h1 {
@@ -34,13 +44,12 @@ body {
     }
 }
 
-@media screen and (min-width: 992px) {
+/*@media screen and (min-width: 992px) {
     body {
-        background-image: url(../img/pokeball-pokémon.jpeg);
+        background-image: url(../img/pokemon-go.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
-        background-position: 0px 0px;
         background-attachment: fixed;
         background-color: #44413a;
     }
-}
+}*/
