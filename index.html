@@ -2,13 +2,14 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=320px, initial-scale=1.0">
 
     <!-- STYLES -->
     <link rel="stylesheet" href="./src/styles/style.css">
     <link rel="stylesheet" href="./src/styles/colors-types.css">
     <link rel="stylesheet" href="./src/styles/pokedex.css">
-
+    <link rel="stylesheet" href="./src/styles/header.css">
+    
     <!-- NORMALIZE CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -20,8 +21,21 @@
 </head>
 <body>
     
+    <header class="header-fixed">
+        <div class="header-title">
+            <h1 id="title-page"><a href="#">P<img src="/src/img/Poké_Ball_icon.png" alt="pokeball">kedex</a></h1>
+        
+            <nav>
+                <a href="#">Home</a>
+                <a href="https://github.com/DrissaCAS" target="_blank">About Me</a>
+                <a href="https://github.com/DrissaCAS/pokedex" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/drissacas/" target="_blank">Linkedin</a>
+                <a href="https://www.behance.net/drissacas" target="_blank">Behance</a>
+            </nav>
+        </div>
+    </header>
+
     <section class="content">
-        <h1 id="title-page">Pokedex</h1>
         
         <ol id="pokemonList" class="pokemons">
             
@@ -36,6 +50,9 @@
         </div>
     </section>
 
+    <footer>
+        <em>© 2025 Pokedéx Desenvolvido por Drissa CAS</em> <br />
+    </footer>
 
     <!-- SCRIPT  -->
     <script src="./src/scripts/pokemon-model.js"></script>

@@ -8,7 +8,7 @@
 
 body {
     background-image: url(../img/pokemon-go.jpg);
-    background-size: 100% auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #f7f8fc;
@@ -21,19 +21,6 @@ body {
     /*background-color: #ffffff;*/
 }
 
-.content h1#title-page {
-    -webkit-text-stroke-width: 0.005em;
-    -webkit-text-stroke-color: #8c3f3b;
-    font-family: 'Pokemon Solid', sans-serif;
-    font-size: 50px;
-    text-align: center;
-    letter-spacing: 0.08em;
-    padding: 0px 0px 20px 15px;
-}
-
-.content h1 {
-    margin: 0px;
-}
 
 @media screen and (min-width: 992px) {
     .content {

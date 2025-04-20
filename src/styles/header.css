@@ -1,0 +1,71 @@
+.header-fixed {
+    background-color: #000000;
+    padding: 10px 40px;
+    height: 80px;
+    width: 100%;
+}
+
+.header-fixed .header-title {
+	max-width: 1100px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.header-fixed h1 a {
+    -webkit-text-stroke-width: 0.005em;
+    -webkit-text-stroke-color: #e11923be;
+    color: #ffffff;
+    font-family: 'Pokemon Solid', sans-serif;
+    font-size: 45px;
+    text-decoration: none;
+    letter-spacing: 0.01em;
+    padding: 0px 0px 20px 15px;
+    float: left;
+}
+
+.header-fixed h1 img {
+    width: 35px;
+}
+
+.header-fixed h1 {
+    margin: 0px;
+}
+
+.header-fixed nav a {
+    display: inline-block;
+	padding: 0 15px;
+	text-decoration:none;
+	color: #ffffff;
+	opacity: 0.9;
+}
+
+.header-fixed nav {
+    padding-top: 8px;
+    font-size: 16px;
+	line-height: 50px;
+	float: right;
+}
+
+.header-fixed .header-title nav a:hover{
+	opacity: .9;
+    color: #db6c75;
+}
+
+@media screen and (max-width: 750px) {
+    .header-fixed h1 a {
+        text-align: center;
+        align-self: center;
+        display: block;
+    }
+
+    .header-fixed nav {
+        display: none;
+    }
+}
+
+footer {
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    padding: 0 0 10px 0;
+}

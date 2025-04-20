@@ -20,7 +20,10 @@ Durante o curso o professor Renan mostrou como realizar a integração e a const
 ##  🛠️ Melhorias
 - Inclusão de background
 - Personalização do título da página com a fonte Pokemon Solid
-- 
+- Inclusão da Pokebola no título
+- Inclusão de cabeçalho
+- Inclusão de hover nos Pokemons e alteração do ponteiro
+- Estilização do botão de páginação
 
 ## 🚀 Resultados
 

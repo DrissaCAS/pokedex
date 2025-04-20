@@ -9,9 +9,10 @@
 .pokemon { 
     display: flex;
     flex-direction: column;
+    border: 2px solid #0000004d;
     margin: .5rem;
     padding: 1.5rem .8rem;
-    border-radius: .8rem;
+    border-radius: 1.5rem 0 1.5rem 0;
 }
 
 .pokemon .number {
@@ -45,9 +46,11 @@
     opacity: 0.6;
     padding: .2rem .8rem;
     margin: .25rem 0;
-    font-size: .625rem;
-    border-radius: 1rem;
+    font-size: .6rem;
+    border-radius: 1rem 0 1rem 0;
     text-align: center;
+    font-style: italic;
+    font-weight: bold;
     filter: brightness(1.2);
 }
 
@@ -68,12 +71,18 @@
 
 .pagination button {
     color: #ffffff;
-    background-color: #6c79db;
-    border: none;
-    border-radius: 1rem;
-    padding: .2rem .8rem;
+    background-color: #db6c75;
+    border: 2px solid #0000004d;
+    border-radius: 1rem 0 1rem 0;
+    padding: .25rem .5rem;
     margin: .25rem 0;
-    font-size: .625rem;
+    font-size: 1.2rem;
+}
+
+.pokemon:hover,
+.pagination button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 @media screen and (min-width: 390px) {
