@@ -1,7 +1,7 @@
 
 
 .bug {
-    background-color: #8fbe31;
+    background-color: #b1d46b;
 }
 
 .dark {
@@ -21,7 +21,7 @@
 }
 
 .fighting {
-    background-color: #dc4713;
+    background-color: #dc7413;
 }
 
 .fire {
@@ -46,12 +46,10 @@
 
 .ice {
     background-color: #98d5d7;
-    color: #174453;
 }
 
 .normal {
     background-color: #eaeae9;
-    color: #174453;
 }
 
 .poison {
@@ -59,7 +57,7 @@
 }
 
 .psychic {
-    background-color: #7f4296;
+    background-color: #e77ede;
 }
 
 .rock {
@@ -71,5 +69,5 @@
 }
 
 .water {
-    background-color: #e11922;
+    background-color: #0961ce;
 }

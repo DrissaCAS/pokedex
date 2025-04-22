@@ -7,18 +7,18 @@
 }
 
 body {
-    background-image: url(../img/pokemon-go.jpg);
+    background-image: url(../img/pokemon-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: #f7f8fc;
+    background-color: #1ab0b8;
+    backdrop-filter: blur(1.5px);
 }
 
 .content {
     height: 100vh;
     width: 100vw;
     padding: 1em;
-    /*background-color: #ffffff;*/
 }
 
 
@@ -31,12 +31,4 @@ body {
     }
 }
 
-/*@media screen and (min-width: 992px) {
-    body {
-        background-image: url(../img/pokemon-go.jpg);
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-color: #44413a;
-    }
-}*/
+

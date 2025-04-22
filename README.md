@@ -1,5 +1,7 @@
 # ![drawing](./src/img/favicon-16x16.png) Pokedex
 
+![Project Status](https://img.shields.io/badge/status-in_progress-yellow)
+
 Projeto realizado junto a [DIO](https://www.dio.me/sign-up?ref=TQGOYNU5LQ), sob orientação do professor Renan Johannsen. A proposta do projeto é construir uma Pokedex trazendo informações da API oficial do Pokémon, integrando e tratando as informações.
 
 Durante o curso o professor Renan mostrou como realizar a integração e a construção da 1° parte da Pokedex, que foram os Pokémons com algumas informações básicas como o número, nome, tipo e a foto. Como desafio ele deixou a criação da segunda tela com detalhes mais aprofundados dos Pokémons.
@@ -12,10 +14,9 @@ Durante o curso o professor Renan mostrou como realizar a integração e a const
 - Separar os códigos ajuda a melhorar a organização do projeto.
 
 ## 🤖 Tecnologias Utilizadas
-- HTML
-- CSS
-- JavaScript
-- PokéAPI
+- ![HTML Badge](https://img.shields.io/badge/-HTML-239120?style=flat&logo=html5&logoColor=white)
+- ![CSS Badge](https://img.shields.io/badge/-CSS-1572B6?style=flat&logo=css3&logoColor=white)
+- ![JavaScript Badge](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
 ##  🛠️ Melhorias
 - Inclusão de background
@@ -28,13 +29,16 @@ Durante o curso o professor Renan mostrou como realizar a integração e a const
 ## 🚀 Resultados
 
 ### Inspiração
-![alt text](./src/img/inspire.png)
+![inspiration](./src/img/readme/inspiration.png)
 
 ### O curso
-![alt text](./src/img/curso.png)
+![course](./src/img/readme/course.png)
+
+### O desafio
+![challenge]
 
 ### Resultado Final
-
+![result](./src/img/readme/result.png)
 
 ## 🔗 Links Úteis
 

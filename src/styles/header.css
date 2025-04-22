@@ -56,10 +56,16 @@
         text-align: center;
         align-self: center;
         display: block;
+        float: none;
     }
 
     .header-fixed nav {
         display: none;
+    }
+
+    footer {
+        position: static;
+        bottom: 0%;
     }
 }
 
@@ -68,4 +74,8 @@ footer {
     color: #000000;
     font-weight: bold;
     padding: 0 0 10px 0;
+    position: static;
+    bottom: 0%;
+    width: 100%;
+    display: inline-block;
 }
