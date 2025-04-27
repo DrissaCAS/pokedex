@@ -53,7 +53,10 @@ pokeApi.detailsPokeToModal = (id) => {
 
 function convertPokeApiDetailToModal(pokeDetail){
     const pokemon = new Pokemon();
-    pokemon.name = pokeDetail.name;
+
+    pokemon.number = pokeDetail.id
+
+    pokemon.name = pokeDetail.name
 
     const types = pokeDetail.types.map((typeSlot) => typeSlot.type.name)
     const [type] = types
@@ -63,7 +66,7 @@ function convertPokeApiDetailToModal(pokeDetail){
     
     //pokemon.genders = genders
     
-    pokemon.photo = pokeDetail.sprites.other.home.front_default
+    pokemon.image = pokeDetail.sprites.other.home.front_default
 
     pokemon.height = pokeDetail.height / 10
     pokemon.weight = pokeDetail.weight / 10

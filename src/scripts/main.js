@@ -9,7 +9,7 @@ let offset = 0
 
 function convertPokemonToLi(pokemon) {
     return `
-        <li class="pokemon ${pokemon.type}">
+        <li class="pokemon ${pokemon.type}" data-id="${pokemon.number}">
             <span class="number">#0${pokemon.number}</span>
             <span class="name">${pokemon.name}</span>
 
@@ -64,10 +64,11 @@ pokemonList.addEventListener('click', (event) => {
         const pokemonId = clickedPokemon.getAttribute("data-id")
 
         pokeApi.detailsPokeToModal(pokemonId).then((detailsModal) => {
+            //console.log('Details recebidos:', detailsModal)
             const details = pokemonModal(detailsModal, pokemonId)
             modal.innerHTML = details
             modal.classList.remove("dNone")
-            modal.classList.add("dGrid")
+            //modal.classList.add("dGrid")
         })}
 })
 
@@ -78,7 +79,7 @@ function pokemonModal(detailsModal, id) {
         
         <div class="details ${detailsModal.type}">
 
-            <img src="${detailsModal.photo}" alt="${detailsModal.name}">
+            <img src="${detailsModal.image}" alt="${detailsModal.name}">
 
             <p class="name"> #0${id} - ${detailsModal.name}</p>
 
