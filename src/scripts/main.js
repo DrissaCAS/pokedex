@@ -4,7 +4,7 @@ const modal = document.getElementById('pokeDetailModal')
 const btnClose = document.getElementById('close')
 
 const maxRecords = 151
-const limit = 20
+const limit = 5
 let offset = 0
 
 function convertPokemonToLi(pokemon) {
@@ -67,8 +67,8 @@ pokemonList.addEventListener('click', (event) => {
             //console.log('Details recebidos:', detailsModal)
             const details = pokemonModal(detailsModal, pokemonId)
             modal.innerHTML = details
-            modal.classList.remove("dNone")
-            //modal.classList.add("dGrid")
+            modal.classList.remove("detailNone")
+            modal.classList.add("detailGrid")
         })}
 })
 
@@ -127,7 +127,7 @@ modal.addEventListener('click', closeModal)
 
 function closeModal(event) {
     if (event.target.id === "pokeDetailModal" || event.target.id === "close" || event.target.id === "iconClose") {
-        modal.classList.add("dNone")
-        modal.classList.remove("dGrid")
+        modal.classList.add("detailNone")
+        modal.classList.remove("detailGrid")
     }
 }

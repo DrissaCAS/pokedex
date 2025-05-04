@@ -1,0 +1,115 @@
+#pokeDetail {
+    background: #f4f4f4;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    animation: fadeIn 0.3s ease-in-out;
+    position: relative;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    padding: 15px;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.details img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+  
+#typeModal {
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    list-style: none;
+}
+  
+#typeModal li {
+    background-color: rgba(255,255,255,0.2);
+    padding: 5px 12px;
+    border-radius: 12px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+  
+/* Tipo como classe para fundo temático */
+.details.grass    { background: linear-gradient(to bottom right, #7AC74C, #2b6d2d); }
+.details.fire     { background: linear-gradient(to bottom right, #F08030, #c23e2f); }
+.details.water    { background: linear-gradient(to bottom right, #6390F0, #246ea0); }
+.details.electric { background: linear-gradient(to bottom right, #F7D02C, #cea504); }
+
+
+#characteristics, #stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    gap: 10px;
+}
+  
+#characteristics {
+    text-align: center;
+    background-color: #ffffffcc;
+    border-radius: 12px;
+    padding: 10px;
+    flex: 1;
+    color: #333;
+}
+
+#stats {
+    text-align: center;
+    background-color: #ffffffcc;
+    border-radius: 12px;
+    padding: 10px;
+    flex: 1;
+    color: #333;
+}
+  
+.red { 
+    background-color: #ff0000cc; 
+    text-align: center;
+    border-radius: 12px;
+    padding: 10px;
+    flex: 1;
+    color: #333;
+}
+
+.yellow { 
+    background-color: #ffff00cc; 
+    text-align: center;
+    border-radius: 12px;
+    padding: 10px;
+    flex: 1;
+    color: #333;
+}
+
+.blue { 
+    background-color: #0000ffcc; 
+    text-align: center;
+    border-radius: 12px;
+    padding: 10px;
+    flex: 1;
+    color: #333;
+}
+
+#close {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #333;
+}
+  
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+}
