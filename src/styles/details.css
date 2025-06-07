@@ -70,34 +70,34 @@
     border-radius: 12px;
     padding: 10px;
     flex: 1;
-    color: #333;
+    color: #242424;
 }
   
 .red { 
-    background-color: #ff0000cc; 
+    background-color: #ff0000b9; 
     text-align: center;
     border-radius: 12px;
     padding: 10px;
     flex: 1;
-    color: #333;
+    color: #242424;
 }
 
 .yellow { 
-    background-color: #ffff00cc; 
+    background-color: #ffff25cc; 
     text-align: center;
     border-radius: 12px;
     padding: 10px;
     flex: 1;
-    color: #333;
+    color: #242424;
 }
 
 .blue { 
-    background-color: #0000ffcc; 
+    background-color: #0000ffb9; 
     text-align: center;
     border-radius: 12px;
     padding: 10px;
     flex: 1;
-    color: #333;
+    color: #242424;
 }
 
 #close {
